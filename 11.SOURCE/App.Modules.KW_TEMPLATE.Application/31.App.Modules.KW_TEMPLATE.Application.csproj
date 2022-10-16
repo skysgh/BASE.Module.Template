@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>App.Modules.KW_TEMPLATE.Application</AssemblyName>
+    <RootNamespace>App.Modules.KW_TEMPLATE.Application</RootNamespace>
+    <BaseOutputPath>..\..\..\SERVICE\App.Service.Host.Web\MODULES\</BaseOutputPath>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\App.Modules.KW_TEMPLATE.Domain\41.App.Modules.KW_TEMPLATE.Domain.csproj" />
+    <ProjectReference Include="..\App.Modules.KW_TEMPLATE.Infrastructure.Storage.Db.EF\52.App.Modules.KW_TEMPLATE.Infrastructure.Data.Storage.Db.EF.csproj" />
+    <ProjectReference Include="..\App.Modules.KW_TEMPLATE.Infrastructure\51.App.Modules.KW_TEMPLATE.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ObjectMapping\Initialisation\ObjectMaps\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>App.Modules.KW_TEMPLATE.Domain</AssemblyName>
+    <RootNamespace>App.Modules.KW_TEMPLATE.Domain</RootNamespace>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <BaseOutputPath>..\..\..\SERVICE\App.Service.Host.Web\MODULES\</BaseOutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\App.Modules.KW_TEMPLATE.Shared\61.App.Modules.KW_TEMPLATE.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
