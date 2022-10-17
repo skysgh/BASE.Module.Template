@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <AssemblyName>App.Modules.KW_TEMPLATE.Application</AssemblyName>
     <RootNamespace>App.Modules.KW_TEMPLATE.Application</RootNamespace>
-    <BaseOutputPath>..\..\..\SERVICE\App.Service.Host.Web\MODULES\</BaseOutputPath>
+    <BaseOutputPath>..\..\..\..\SOURCE\App.Service.Host\MODULES\</BaseOutputPath>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
   </PropertyGroup>
 
