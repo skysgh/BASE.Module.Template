@@ -6,10 +6,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <AssemblyName>App.Modules.KW_TEMPLATE.Infrastructure.Data.Storage.Db.EF</AssemblyName>
-    <BaseOutputPath>..\..\..\..\SOURCE\App.Service.Host\MODULES\</BaseOutputPath>
-    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+	  <BaseOutputPath>..\..\..\..\SOURCE\App.Service.Host\MODULES\</BaseOutputPath>
+	  <GenerateDocumentationFile>True</GenerateDocumentationFile>
   </PropertyGroup>
-
+	
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
   </PropertyGroup>
@@ -23,12 +23,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\BASE\SOURCE\App.Base.Infrastructure.Storage.EF\62.App.Base.Infrastructure.Data.Storage.Db.EF.csproj" />
+	<ProjectReference Include="..\..\..\BASE\SOURCE\App.Base.Infrastructure.Storage.EF\62.App.Base.Infrastructure.Data.Storage.Db.EF.csproj" />
     <ProjectReference Include="..\..\..\BASE\SOURCE\App.Base.Shared\71.App.Base.Shared.csproj" />
 	<ProjectReference Include="..\..\..\BASE\SOURCE\App.Base.Infrastructure\61.App.Base.Infrastructure.csproj" />
-  </ItemGroup>
-  <ItemGroup>
-	  <ProjectReference Include="..\App.Modules.KW_TEMPLATE.Infrastructure\51.App.Modules.KW_TEMPLATE.Infrastructure.csproj" />
+	  
+	<ProjectReference Include="..\App.Modules.KW_TEMPLATE.Infrastructure\51.App.Modules.KW_TEMPLATE.Infrastructure.csproj" />
     <ProjectReference Include="..\App.Modules.KW_TEMPLATE.Shared\61.App.Modules.KW_TEMPLATE.Shared.csproj" />
   </ItemGroup>
 

@@ -24,6 +24,7 @@
     <ProjectReference Include="..\App.Modules.KW_TEMPLATE.Infrastructure\51.App.Modules.KW_TEMPLATE.Infrastructure.csproj" />
   </ItemGroup>
 
+	
   <ItemGroup>
     <Folder Include="ObjectMapping\Initialisation\ObjectMaps\" />
   </ItemGroup>
