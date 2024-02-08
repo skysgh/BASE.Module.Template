@@ -1,8 +1,8 @@
 ﻿using App.Base.Infrastructure.Services;
-using App.Base.Infrastructure.Storage.Db.EF.Interceptors;
-using App.Base.Infrastructure.Storage.Db.EF.Interceptors.Implementations;
 using App.Base.Shared.Models;
 using Microsoft.EntityFrameworkCore;
+using App.Base.Infrastructure.Storage.Db.EF.Interceptors.Implementations;
+using App.Base.Infrastructure.Storage.Db.EF.Interceptors;
 
 namespace App.Modules.KW_TEMPLATE.Infrastructure.Storage.Db.Interceptions.Instances
 {

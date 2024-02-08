@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace App.Modules.KW_TEMPLATE.Application.Api.Services
+namespace App.Modules.KW_TEMPLATE.Application.APIs.Services
 {
     /// <summary>
     /// An example of a 
