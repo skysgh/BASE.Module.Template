@@ -32,9 +32,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\App.Modules.KWMODULENAME.Domain\App.Modules.KWMODULENAME.Domain.csproj" />
-    <ProjectReference Include="..\App.Modules.KWMODULENAME.Infrastructure\App.Modules.KWMODULENAME.Infrastructure.csproj" />
-    <ProjectReference Include="..\App.Modules.KWMODULENAME.Substrate\App.Modules.KWMODULENAME.Substrate.csproj" />
+	  <ProjectReference Include="..\App.Modules.KWMODULENAME.Domain\App.Modules.KWMODULENAME.Domain.csproj" />
+	  <ProjectReference Include="..\App.Modules.KWMODULENAME.Infrastructure.Data.EF\App.Modules.KWMODULENAME.Infrastructure.Data.EF.csproj" />
+	  <ProjectReference Include="..\App.Modules.KWMODULENAME.Infrastructure\App.Modules.KWMODULENAME.Infrastructure.csproj" />
+	  <ProjectReference Include="..\App.Modules.KWMODULENAME.Interfaces.Models\App.Modules.KWMODULENAME.Interfaces.Models.csproj" />
+	  <ProjectReference Include="..\App.Modules.KWMODULENAME.Substrate\App.Modules.KWMODULENAME.Substrate.csproj" />
   </ItemGroup>
 
 </Project>

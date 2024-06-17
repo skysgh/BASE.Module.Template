@@ -34,10 +34,9 @@
     </None>
   </ItemGroup>
 
-  <ItemGroup>
-	  <ProjectReference Include="..\App.Modules.KWMODULENAME.Interfaces.Models\App.Modules.KWMODULENAME.Interfaces.Models.csproj" />
-	  <ProjectReference Include="..\App.Modules.KWMODULENAME.Application\App.Modules.KWMODULENAME.Application.csproj" />
-    <ProjectReference Include="..\App.Modules.KWMODULENAME.Substrate\App.Modules.KWMODULENAME.Substrate.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\App.Modules.KWMODULENAME.Substrate\App.Modules.KWMODULENAME.Substrate.csproj" />
+	</ItemGroup>
+
 
 </Project>
