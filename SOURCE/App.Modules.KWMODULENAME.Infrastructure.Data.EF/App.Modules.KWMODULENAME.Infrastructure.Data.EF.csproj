@@ -1,17 +1,59 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+	  <TargetFramework>net8.0</TargetFramework>
+	  <ImplicitUsings>enable</ImplicitUsings>
+	  <Nullable>enable</Nullable>
+	  <GenerateDocumentationFile>True</GenerateDocumentationFile>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	  <Title>$(AssemblyName)</Title>
+	  <Copyright>Copyright $(Authors)</Copyright>
+	  <PackageReadmeFile>readme.md</PackageReadmeFile>
+	  <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+	  <AnalysisLevel>preview-recommended</AnalysisLevel>
+	  <EnableNETAnalyzers>True</EnableNETAnalyzers>
+	  <Company>MachineBrains, Inc.</Company>
+	  <Product>BASE</Product>
+	  <!--<BaseOutputPath>..\..\..\..\SOURCE\App.Service.Host\MODULES\</BaseOutputPath>-->
   </PropertyGroup>
 
-  <ItemGroup>
+	<PropertyGroup>
+		<PackageReadmeFile>Packaging/readme.nuget.md</PackageReadmeFile>
+	</PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Title>$(AssemblyName)</Title>
+		<Copyright>Copyright $(Authors)</Copyright>
+		<PackageReadmeFile>readme.md</PackageReadmeFile>
+		<EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+		<AnalysisLevel>preview-recommended</AnalysisLevel>
+		<EnableNETAnalyzers>True</EnableNETAnalyzers>
+		<Company>MachineBrains, Inc.</Company>
+		<Product>BASE</Product>
+		<!--<BaseOutputPath>..\..\..\..\SOURCE\App.Service.Host\MODULES\</BaseOutputPath>-->
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<PackageReadmeFile>Packaging/readme.nuget.md</PackageReadmeFile>
+	</PropertyGroup>
+
+	<ItemGroup>
     <ProjectReference Include="..\App.Modules.KWMODULENAME.Infrastructure\App.Modules.KWMODULENAME.Infrastructure.csproj" />
   </ItemGroup>
 
     <ItemGroup>
 	    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.6" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="Packaging\readme.nuget.md">
+        <PackagePath>\</PackagePath>
+        <Pack>true</Pack>
+      </None>
     </ItemGroup>
 
 </Project>
